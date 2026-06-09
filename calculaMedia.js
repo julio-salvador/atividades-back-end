@@ -6,15 +6,15 @@ const nome = "Lando Norris"
 
 let media = (nota1 + nota2 + nota3) / 3;
 
-if (media >=7){
+if (media >= 7){
     console.log("O aluno está: Aprovado")
 }
 
-if (media >=5 && media <7){
+if (media >= 5 && media <7){
     console.log("O aluno está de: Se liga")
 }
 
-if (media <5){
+if (media < 5){
     console.log("O aluno está: Reprovado")
 }
 
