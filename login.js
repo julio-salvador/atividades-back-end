@@ -1,14 +1,14 @@
 
 let cadastrado = "admin";
 
-let senha = "1234";
+let senha = 1234;
 
 let usuarioDigitado = "admin";
 
-let senhaDigitada = "4321";
+let senhaDigitada = 1234;
 
 
-if (cadastrado === usuarioDigitado && senha === senhaDigitada) {
+if (cadastrado == usuarioDigitado && senha == senhaDigitada) {
     console.log("Login efetuado com sucesso!");
 } else {
     

@@ -1,6 +1,6 @@
 let convidados = ["Nicolas", "Carlos", "Jonas", "lúis", "Rafael"];
 
-let nomeVerifica = "Nicolas";
+let nomeVerifica = "gabriel";
 
 if (convidados.includes(nomeVerifica)){
     console.log("Pode entrar, você é convidado VIP!")

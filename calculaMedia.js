@@ -10,11 +10,11 @@ if (media >= 7){
     console.log("O aluno está: Aprovado")
 }
 
-if (media >= 5 && media <7){
+else if (media >= 5 && media < 7){
     console.log("O aluno está de: Se liga")
 }
 
-if (media < 5){
+else  if (media < 5){
     console.log("O aluno está: Reprovado")
 }
 
